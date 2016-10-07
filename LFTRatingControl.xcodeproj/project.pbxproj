@@ -14,6 +14,12 @@
 		8847FA081DA81DC3008BCD95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8847FA061DA81DC3008BCD95 /* LaunchScreen.storyboard */; };
 		8847FA131DA81DC3008BCD95 /* LFTRatingControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8847FA121DA81DC3008BCD95 /* LFTRatingControlTests.swift */; };
 		8847FA1E1DA81DC3008BCD95 /* LFTRatingControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8847FA1D1DA81DC3008BCD95 /* LFTRatingControlUITests.swift */; };
+		8847FA2E1DA81F7D008BCD95 /* emptyStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8847FA2C1DA81F7D008BCD95 /* emptyStar.png */; };
+		8847FA2F1DA81F7D008BCD95 /* emptyStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8847FA2C1DA81F7D008BCD95 /* emptyStar.png */; };
+		8847FA301DA81F7D008BCD95 /* emptyStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8847FA2C1DA81F7D008BCD95 /* emptyStar.png */; };
+		8847FA311DA81F7D008BCD95 /* filledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8847FA2D1DA81F7D008BCD95 /* filledStar.png */; };
+		8847FA321DA81F7D008BCD95 /* filledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8847FA2D1DA81F7D008BCD95 /* filledStar.png */; };
+		8847FA331DA81F7D008BCD95 /* filledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8847FA2D1DA81F7D008BCD95 /* filledStar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		8847FA191DA81DC3008BCD95 /* LFTRatingControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFTRatingControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8847FA1D1DA81DC3008BCD95 /* LFTRatingControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFTRatingControlUITests.swift; sourceTree = "<group>"; };
 		8847FA1F1DA81DC3008BCD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8847FA2C1DA81F7D008BCD95 /* emptyStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyStar.png; sourceTree = "<group>"; };
+		8847FA2D1DA81F7D008BCD95 /* filledStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filledStar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		8847F9FC1DA81DC3008BCD95 /* LFTRatingControl */ = {
 			isa = PBXGroup;
 			children = (
+				8847FA2B1DA81F4C008BCD95 /* images */,
 				8847F9FD1DA81DC3008BCD95 /* AppDelegate.swift */,
 				8847F9FF1DA81DC3008BCD95 /* ViewController.swift */,
 				8847FA011DA81DC3008BCD95 /* Main.storyboard */,
@@ -123,6 +132,15 @@
 				8847FA1F1DA81DC3008BCD95 /* Info.plist */,
 			);
 			path = LFTRatingControlUITests;
+			sourceTree = "<group>";
+		};
+		8847FA2B1DA81F4C008BCD95 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8847FA2C1DA81F7D008BCD95 /* emptyStar.png */,
+				8847FA2D1DA81F7D008BCD95 /* filledStar.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8847FA081DA81DC3008BCD95 /* LaunchScreen.storyboard in Resources */,
+				8847FA2E1DA81F7D008BCD95 /* emptyStar.png in Resources */,
 				8847FA051DA81DC3008BCD95 /* Assets.xcassets in Resources */,
 				8847FA031DA81DC3008BCD95 /* Main.storyboard in Resources */,
+				8847FA311DA81F7D008BCD95 /* filledStar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +259,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8847FA2F1DA81F7D008BCD95 /* emptyStar.png in Resources */,
+				8847FA321DA81F7D008BCD95 /* filledStar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +268,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8847FA301DA81F7D008BCD95 /* emptyStar.png in Resources */,
+				8847FA331DA81F7D008BCD95 /* filledStar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
